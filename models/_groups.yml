@@ -1,0 +1,9 @@
+groups:
+  - name: platform
+    owner:
+      email: jaff.bridges@jaffleshop.com
+      name: Jaff Bridges
+  - name: marts
+    owner:
+      email: dave.jaffews@jaffleshop.com
+      name: Dave Jaffews

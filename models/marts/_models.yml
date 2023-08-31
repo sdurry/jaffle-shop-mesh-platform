@@ -1,0 +1,28 @@
+models:
+  - name: products
+    access: protected
+    group: marts
+    config:
+      contract:
+        enforced: true
+  - name: metricflow_time_spine
+    access: protected
+    group: marts
+    config:
+      contract:
+        enforced: true
+  - name: order_items
+    access: private
+    group: marts
+  - name: supplies
+    access: protected
+    group: marts
+    config:
+      contract:
+        enforced: true
+  - name: locations
+    access: protected
+    group: marts
+    config:
+      contract:
+        enforced: true

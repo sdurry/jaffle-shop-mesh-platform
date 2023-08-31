@@ -1,6 +1,11 @@
 models:
   - name: stg_order_items
     description: Individual food and drink items that make up our orders, one row per item.
+    access: protected
+    group: platform
+    config:
+      contract:
+        enforced: true
     columns:
       - name: order_item_id
         description: The unique key for each order item.
