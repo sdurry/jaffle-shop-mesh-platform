@@ -1,11 +1,6 @@
 models:
   - name: stg_orders
     description: Order data with basic cleaning and transformation applied, one row per order.
-    access: protected
-    group: platform
-    config:
-      contract:
-        enforced: true
     columns:
       - name: order_id
         description: The unique key for each order.
