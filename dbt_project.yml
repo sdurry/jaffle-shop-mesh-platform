@@ -1,4 +1,4 @@
-name: "jaffle_shop"
+name: "jaffle_shop_mesh_platform"
 version: "2.1.0"
 config-version: 2
 
@@ -22,7 +22,7 @@ vars:
   "dbt_date:time_zone": "America/Los_Angeles"
 
 models:
-  jaffle_shop:
+  jaffle_shop_mesh_platform:
     staging:
       +materialized: view
     marts:
