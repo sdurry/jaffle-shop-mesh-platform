@@ -1,7 +1,7 @@
 models:
   - name: stg_locations
     description: List of open locations with basic cleaning and transformation applied, one row per location.
-    access: protected
+    access: public
     group: platform
     config:
       contract:

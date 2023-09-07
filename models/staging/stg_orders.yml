@@ -1,7 +1,7 @@
 models:
   - name: stg_orders
     description: Order data with basic cleaning and transformation applied, one row per order.
-    access: protected
+    access: public
     group: platform
     config:
       contract:
