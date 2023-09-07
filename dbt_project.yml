@@ -25,5 +25,3 @@ models:
   jaffle_shop_mesh_platform:
     staging:
       +materialized: view
-    marts:
-      +materialized: table
