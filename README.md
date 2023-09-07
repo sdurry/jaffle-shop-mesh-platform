@@ -3,7 +3,7 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dbt-labs/jaffle-shop?quickstart=1)
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dbt-labs/jaffle-shop)
 
-This is a sandbox project for exploring the basic functionality and latest features of dbt.
+This is a sandbox project for exploring the basic functionality and latest features of dbt. This project is part of a three project mesh, and forms the foundational project upstream of a [marketing](https://github.com/dbt-labs/jaffle-shop-mesh-marketing) and a [finance](https://github.com/dbt-labs/jaffle-shop-mesh-finance) project.
 
 ## Create new repo from template
 
