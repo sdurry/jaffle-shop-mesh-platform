@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: stg_tpch_external__orders
+    description: >
+      a staging table on top of source order data 
+      that is cleaned and formatted correctly for downstream usage
+    columns:
+      - name: order_id
+        data_type: number
+        description: the unique identifier for an order
+        data_tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        data_type: number
+        description: the identifier for a customer
+        data_tests:
+          - not_null
+
+      - name: order_status
+        data_type: varchar
+        description: the status of an order
+
+      - name: order_price
+        data_type: number
+        description: the US Dollar value of an order with 
+
+      - name: order_date
+        data_type: date
+        description: the date of the order
+
+      - name: order_priority_value
+        data_type: number
+        description: the numer value of the order priority
+
+      - name: order_priority
+        data_type: varchar
+        description: the priority of an order
+        data_tests:
+          - accepted_values:
+              values: ['LOW', 'URGENT', 'HIGH', 'MEDIUM', 'NOT SPECIFIED']
+      - name: clerk_name
+        data_type: varchar
+        description: the clerk name of the order
+
+      - name: ship_priority
+        data_type: number
+        description: the shipping prority of an order
